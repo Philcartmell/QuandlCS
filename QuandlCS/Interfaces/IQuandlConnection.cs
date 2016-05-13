@@ -14,5 +14,6 @@ namespace QuandlCS.Interfaces
     /// <param name="request">The request to send</param>
     /// <returns>The returned string</returns>
     string Request(IQuandlRequest request);
+    Task<string> RequestAsync(IQuandlRequest request);
   }
 }

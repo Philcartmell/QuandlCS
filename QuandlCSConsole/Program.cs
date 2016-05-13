@@ -34,7 +34,7 @@ namespace QuandlCSConsole
 
         RequestToFile(filename, request);
 
-        Print("Request complete.");
+        Print("RequestAsync complete.");
       }
       else
       {
